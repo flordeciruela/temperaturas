@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Conversor</title>
+  </head>
+  <body>
+  <style>
+  table, td {
+      border: 1px solid black;
+      padding: 1px;
+  }
+  table {
+      border-spacing: 1px;
+  }
+  </style>
+  <table>
+    <tr>
+      <td>Fahrenheit</td>
+      <td><label for="fahrenheit"></label>
+        <input id="fahrenheit" type="text"></td>
+      <td><input type="button" name="Boton1" value="Convert to Celsius" OnClick="converToCelcius();"></td>
+    </tr>
+    <tr>
+      <td>Celsius</td>
+      <td><label for="celcius"></label>
+        <input id="celcius" type="text"></td>
+      <td><input type="button" name="Boton2" value="Convert to Fahrenheit" OnClick="convertToFarenheit();"></td>
+    </tr>
+  </table>
+  <script src="assets/js/main.js" charset="utf-8"></script>
+  </body>
+</html>
